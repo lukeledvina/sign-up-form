@@ -1,0 +1,58 @@
+:root {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin: -10px;
+}
+
+.logo-banner {
+    position: absolute;
+    top: 33vh;
+    width: 40vw;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.citation {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    left: 20%;
+}
+
+.citation a {
+    color: white;
+}
+
+#background-img {
+    height: 100vh;
+    width: 40vw;
+}
+
+.right-top {
+    height: 33vh;
+    align-items: center;
+}
+
+form {
+    height: 33vh;
+}
+
+.right-bottom {
+    height: 33vh;
+}
