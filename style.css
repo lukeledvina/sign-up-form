@@ -1,5 +1,6 @@
 :root {
     box-sizing: border-box;
+    --neutral-background-color: rgb(233, 233, 233, 0.4);
 }
 
 body{
@@ -9,7 +10,8 @@ body{
 .right-container {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin: -10px -10px auto 10px;
+    width: 70vw;
 }
 
 .left-container {
@@ -22,9 +24,9 @@ body{
 
 .logo-banner {
     position: absolute;
-    top: 33vh;
-    width: 40vw;
-    height: 250px;
+    top: 18.8%;
+    width: 30vw;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -32,7 +34,7 @@ body{
     position: absolute;
     bottom: 5px;
     color: white;
-    left: 20%;
+    left: 25%;
 }
 
 .citation a {
@@ -41,18 +43,20 @@ body{
 
 #background-img {
     height: 100vh;
-    width: 40vw;
+    width: 30vw;
 }
 
 .right-top {
-    height: 33vh;
+    height: 35vh;
     align-items: center;
+    background-color: var(--neutral-background-color);
 }
 
 form {
-    height: 33vh;
+    height: 30vh;
 }
 
 .right-bottom {
-    height: 33vh;
+    height: 35vh;
+    background-color: var(--neutral-background-color);
 }
