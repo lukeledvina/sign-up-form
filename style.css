@@ -57,10 +57,10 @@ h1{
 
 .citation {
     position: absolute;
-    bottom: 5px;
     color: white;
-    right: 40%;
-    
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .citation a {
