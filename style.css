@@ -112,13 +112,14 @@ form > * {
 }
 
 input {
-    border-radius: 3px;
+    border-radius: 5px;
     border-width: 1px;
-    height: 25px;
+    height: 27px;
     border-color: rgb(224, 224, 224);
     border-style: solid;
-    width: 225px;
+    width: 250px;
 }
+
 
 label {
     display: block;
@@ -163,4 +164,26 @@ button:active {
 }
 .bottom-content > p > a:active {
     color: #293321;
+}
+
+input:focus {
+    outline: none;
+    border-color: black;
+}
+
+.last-name:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 2px 3px 10px rgb(218, 218, 218);
+}
+
+.password {
+    outline: none;
+    border-color: red;
+}
+
+.error-text {
+    margin-top: 0px;
+    font-size: 13px;
+    color: red;
 }
