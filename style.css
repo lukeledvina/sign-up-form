@@ -72,8 +72,18 @@ h1{
 
 .right-top {
     height: 35vh;
-    align-items: center;
     background-color: var(--neutral-background-color);
+}   
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-right: 500px;
+    padding-bottom: 50px;
+    height: 80%;
+    justify-content: end;
+    font-size: 18px;
 }
 
 form {
