@@ -10,6 +10,12 @@
     --neutral-background-color: rgb(233, 233, 233, 0.4);
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 body{
     display: flex;
 }
@@ -17,7 +23,7 @@ body{
 .right-container {
     display: flex;
     flex-direction: column;
-    margin: -10px -10px auto 10px;
+
     width: 70vw;
 }
 
@@ -26,7 +32,6 @@ body{
     flex-direction: column;
     position: relative;
     justify-content: center;
-    margin: -10px;
     
 
 }
@@ -54,7 +59,8 @@ body{
     position: absolute;
     bottom: 5px;
     color: white;
-    left: 25%;
+    right: 40%;
+    
 }
 
 .citation a {
